@@ -38,6 +38,10 @@ To set up CookScript locally:
 
 6. Open the project in your browser.
 
+## Screenshots
+![image](https://github.com/user-attachments/assets/bbd5650b-5fe3-44f5-acd3-bcee1696b113)
+
+
 ## Live Demo
 
 You can see the live demo of CookScript by clicking the button below:
