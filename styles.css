@@ -1,18 +1,16 @@
-/* Prevent horizontal overflow */
 body {
     font-family: Arial, sans-serif;
     background: #f8f8f8;
     margin: 0;
     padding: 0;
-    text-align: left;  /* Keep text aligned to the left */
-    overflow-x: hidden;  /* Prevent horizontal scrolling */
+    text-align: left;  
+    overflow-x: hidden; 
 }
 
-/* Base container styles */
 .container {
-    width: 80%;  /* Wider container for blog-style content */
-    max-width: 1200px;  /* Max width for large screens */
-    margin: 30px auto;  /* Centering with margin */
+    width: 80%; 
+    max-width: 1200px;  
+    margin: 30px auto;  
     background: #fff;
     padding: 20px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
@@ -20,17 +18,16 @@ body {
     box-sizing: border-box;
 }
 
-/* Recipe post styling */
+
 .recipe-container {
-    line-height: 1.8; /* Improve readability */
-    font-size: 1.1rem; /* Slightly increase text size for better readability */
+    line-height: 1.8; 
+    font-size: 1.1rem; 
     color: #333;
-    padding: 20px; /* Added padding inside the content */
-    margin: 0 auto;  /* Center the content */
-    max-width: 1000px;  /* Limit the width to look more like a blog post */
+    padding: 20px; 
+    margin: 0 auto;  
+    max-width: 1000px; 
 }
 
-/* Recipe title */
 .recipe-container h1 {
     font-size: 2.5rem;
     font-weight: bold;
@@ -38,15 +35,13 @@ body {
     margin-bottom: 20px;
 }
 
-/* Recipe content - description text */
 .recipe-container p {
     font-size: 1.1rem;
     color: #555;
-    text-align: left;  /* Left-aligned text */
+    text-align: left;  
     margin-bottom: 20px;
 }
 
-/* Recipe card styling for home page */
 .recipe-card {
     background: white;
     padding: 20px;
@@ -56,10 +51,9 @@ body {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     box-sizing: border-box;
-    text-align: left;  /* Left align content for cards */
+    text-align: left;  
 }
 
-/* Recipe card title links */
 .recipe-card h2 a {
     text-decoration: none;
     color: #333;
@@ -71,7 +65,6 @@ body {
     color: #ff5722;
 }
 
-/* Add Recipe Button and Back Link */
 .add-button, .back-link {
     display: inline-block;
     padding: 10px 20px;
@@ -90,7 +83,6 @@ body {
     color: white;
 }
 
-/* Enhanced Add Recipe Page */
 .add-recipe-container {
     width: 70%;
     margin: auto;
@@ -149,7 +141,6 @@ body {
     background: #e64a19;
 }
 
-/* Back Link Styling */
 .add-recipe-container .back-link {
     display: inline-block;
     padding: 10px 20px;
@@ -167,7 +158,6 @@ body {
     color: white;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .container {
         width: 90%;
