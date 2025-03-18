@@ -14,6 +14,8 @@
         <a href="add_recipe.php" class="btn btn-danger"><i class="fa-solid fa-plus"></i>&nbsp;&nbsp;&nbsp;Add Recipe</a>
         <button type="button" class="btn btn-success" onclick="handledeveloper()"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;Developers</button>
         <button type="button" class="btn btn-warning"><i class="fa-brands fa-github"></i>&nbsp;&nbsp;Source Code</button>
+        <a href="./about.html"><button type="button" class="btn btn-primary"><i class="fa-solid fa-building"></i>&nbsp;&nbsp;About</button>
+        </a>
         <hr>
         <div id="recipes">
             <?php include 'recipes.html'; ?>

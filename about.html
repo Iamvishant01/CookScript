@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>About - CookScript</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #ff5722;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        /* About Section */
+        .about-container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+
+        .about-container h2 {
+            font-size: 2rem;
+            color: #ff5722;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .about-container p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            text-align: justify;
+            margin-bottom: 15px;
+        }
+
+        .about-container .highlight {
+            font-weight: bold;
+            color: #ff5722;
+        }
+
+        .about-container img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .about-container {
+                width: 90%;
+                padding: 15px;
+            }
+
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .about-container h2 {
+                font-size: 1.8rem;
+            }
+
+            .about-container p {
+                font-size: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.6rem;
+            }
+
+            .about-container h2 {
+                font-size: 1.5rem;
+            }
+
+            .about-container p {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>CookScript - About</h1>
+</header>
+
+<div class="about-container">
+    <h2>About CookScript</h2>
+    <p>
+        CookScript is a dynamic recipe blogging platform created to bring food lovers and bloggers together. The platform allows users to easily
+        share their favorite recipes, explore new ones, and engage with the community. Whether you're a culinary expert or just starting, CookScript
+        offers a simple, no-database solution to help you create and discover delicious dishes.
+    </p>
+    <p>
+        With CookScript, anyone can post their recipes with ease. All you need is an internet connection and a passion for cooking! Recipes are displayed dynamically,
+        meaning there's no need for a complex backend database. This makes it perfect for users who just want to focus on creating and sharing food content.
+    </p>
+    <p>
+        We strive to make this platform accessible for all, with a responsive design that works across all devices, whether you're on a desktop, tablet, or mobile.
+        We hope that CookScript helps inspire your next culinary adventure.
+    </p>
+    <p>
+        If you're passionate about food and blogging, <span class="highlight">CookScript</span> is the place to be! Join us in making cooking and recipe sharing
+        an exciting and fun experience for all.
+    </p>
+    <br>
+    <br>
+    <a href="index.php" class="back-link"><i class="fa-solid fa-backward"></i>&nbsp;&nbsp; Back to Home</a>
+</div>
+
+</body>
+</html>
