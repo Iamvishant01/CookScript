@@ -9,8 +9,57 @@
     <script src="https://kit.fontawesome.com/7a43ab629f.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
-
+<style>
+        .container-box {
+            display: flex;
+            width: 97%;
+            max-width: 900px;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin: auto; /* Centers the container horizontally */
+            justify-content: center; /* Centers the content inside */
+            align-items: center; /* Aligns items vertically */
+            margin-top: 8%; /* Adds space from the top */
+            margin-bottom: 12%;
+        }
+        .left-container {
+            flex: 1;
+            height: 300px; /* Set a fixed height */
+            background: url('https://images.unsplash.com/photo-1742845918430-c6093f93f740?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMHx8fGVufDB8fHx8fA%3D%3D') 
+            center/cover no-repeat;
+        }
+        .right-container {
+            flex: 1;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .bottom-ui {
+            margin-top: 20px;
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            .container-box {
+                flex-direction: column;
+                padding: 2%;
+                margin-bottom: 90%;
+                margin-top: 30%;
+                width: 100%; /* Ensures full width */
+            }
+            .left-container {
+                background: url('https://images.unsplash.com/photo-1742845918430-c6093f93f740?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMHx8fGVufDB8fHx8fA%3D%3D') 
+                center/cover no-repeat !important;
+                display: block !important;
+                min-height: 250px; /* Ensures visibility */
+                width: 100%;
+                background-size: cover;
+                background-position: center;
+            }
+        }
+    </style>
     <div class="container-main">
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -41,8 +90,20 @@
          <!-- Navbar End -->
     </div>
 
+    <div class="container-box">
+        <div class="left-container">
+            
+        </div>
+        <div class="right-container">
+            <h2>Model Text Heading</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor arcu nec ex consectetur.</p>
+            <div class="bottom-ui">
+                <a href="#CookScript"><button class="btn btn-primary">Click Me</button></a>
+            </div>
+        </div>
+    </div>
 
-    <div class="container">
+    <div class="container" id="CookScript">
         <h1><i class="fa-solid fa-utensils" id="main-icon"></i> CookScript - Recipe Collection</h1>
         <a href="add_recipe.php" class="btn btn-danger"><i class="fa-solid fa-plus"></i>&nbsp;&nbsp;&nbsp;Add Recipe</a>
         <button type="button" class="btn btn-success" onclick="handledeveloper()"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;Developers</button>
